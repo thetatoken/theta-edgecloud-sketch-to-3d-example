@@ -32,5 +32,6 @@ Deploy the Sketch to 3D model on Theta Edge Cloud by going to the [Model Explore
 
 ## Preview
 
-![screenshot](https://github.com/thetatoken/chatbot-example/assets/601861/aa9371ae-2e7b-4a83-8b48-c08050e6a5d5)
+![Screenshot 2024-07-31 at 2 04 16 PM](https://github.com/user-attachments/assets/6cdd2895-231e-461c-8f44-316aed807222)
+![Screenshot 2024-07-31 at 2 04 02 PM](https://github.com/user-attachments/assets/db9686eb-f061-41a3-a0d8-61b97ba760a8)
 
