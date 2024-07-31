@@ -1,0 +1,77 @@
+.ImageInput {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.ImageInput__Label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600; /* Semi-bold */
+    color: #B0B3B8; /* Light grey color */
+    cursor: pointer;
+    border: 2px dotted #4B547A;
+    border-radius: 0.8rem;
+}
+
+.ImageInput__Label--Green {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: cadetblue; /* Green color */
+}
+
+.ImageInput__Label--dragover {
+    background: #333740; /* Dark background */
+    border-radius: 0.8rem;
+    border-color: cadetblue; /* Green color */
+}
+
+.ImageInput input[type='file'] {
+    width: 40rem;
+    height: 16rem;
+    padding: 0.8rem;
+    background: transparent;
+    color: rgba(0, 0, 0, 0);
+}
+
+.ImageInput input[type='file']::file-selector-button {
+    display: none;
+}
+
+.ImageInput input[type='file']:focus {
+    outline: none;
+    border-color: cadetblue; /* Semi-transparent green border */
+}
+
+.ImageInput__ImageUploaded {
+    width: 40rem;
+    border-radius: 0.8rem;
+}
+
+.ImageInput__ImageUploaded__Close {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    background: #1F2331; /* Dark background */
+}
+
+.ImageInput__ImageUploaded__Close svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.ImageInput__ImageUploaded__Close svg {
+    fill: #B0B3B8; /* Light grey color */
+    width: 2rem;
+    height: 2rem;
+}

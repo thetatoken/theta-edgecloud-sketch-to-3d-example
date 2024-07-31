@@ -1,5 +1,5 @@
-import './App.css'
-import {Chatbot} from "./Chatbot.jsx";
+import './styles/App.css'
+import {SketchTo3dView} from "./SketchTo3dView.jsx";
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
         <>
             <Header/>
 
-            <Chatbot/>
+            <SketchTo3dView/>
 
             <Footer/>
         </>
@@ -19,8 +19,7 @@ export default App
 
 const Header = () => {
     return (<>
-            <h1>my math teacher</h1>
-            <h2>a chatbot example</h2>
+            <h1>Sketch to 3D</h1>
         </>
     )
 }

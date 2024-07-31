@@ -1,0 +1,282 @@
+.SketchTo3d {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.SketchTo3d__Container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.SketchTo3d__LeftSide {
+    width: 65rem;
+    margin-right: 3.8rem;
+}
+
+.SketchTo3d__ImageInputWrapper {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background: #191D29;
+    border-radius: 0.8rem;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput {
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43rem;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__ImageUploaded {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    border-radius: 0;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__ImageUploaded__Close {
+    background: #191D29;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__ImageUploaded__Close:hover {
+    background: #2D3443;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__ImageUploaded__Close .g-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__ImageUploaded__Close .g-icon svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput input {
+    width: 100%;
+    height: 55rem;
+    cursor: pointer;
+}
+
+.SketchTo3d__ImageInputWrapper .ImageInput__Label {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.SketchTo3d__ImageInputWrapper__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.SketchTo3d__ImageInputWrapper__input {
+    height: 10rem;
+    flex-grow: 1;
+    padding: 1.8rem;
+    border-radius: 0.6rem;
+    background: transparent;
+    border: 1px solid #3D4463;
+    color: #B0B3B8;
+    font-size: 1.4rem;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+    resize: none;
+}
+
+.SketchTo3d__ImageInputWrapper__input::placeholder {
+    color: rgba(176, 179, 184, 0.6);
+}
+
+.SketchTo3d__ImageInputWrapper__input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.SketchTo3d__RightSide {
+    width: 100%;
+    max-width: 82rem;
+    padding-top: 2rem;
+}
+
+.SketchTo3d .ErrorMessage {
+    color: #ff6347;
+    font-weight: 600;
+    height: 1.4rem;
+    margin: 2.3rem 0 1.7rem 0;
+}
+
+.SketchTo3d__Prompts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.55rem;
+    background: #191D29;
+    border-radius: 1rem;
+    padding: 1.7rem 1.5rem;
+}
+
+.SketchTo3d__Prompts .TextInput input {
+    background: transparent;
+    border: 1px solid #3D4463;
+    border-radius: 0.6rem;
+    color: #B0B3B8;
+    font-size: 1.4rem;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 500;
+    padding: 1rem;
+    width: 97%;
+    resize: none;
+}
+
+.SketchTo3d__Prompts .TextInput input:focus {
+    outline: none;
+    border-color: cadetblue;
+}
+
+.SketchTo3d__GeneratedItems {
+    display: flex;
+    gap: 4.3rem;
+    margin-top: 2.6rem;
+}
+
+.SketchTo3d__GeneratedItemWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 50%;
+    position: relative;
+}
+
+.SketchTo3d__GeneratedItemWrapper__LeftBadge {
+    position: absolute;
+    background: #3D4463;
+    color: #B0B3B8;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.4rem;
+    left: 2rem;
+    top: 2rem;
+}
+
+.SketchTo3d .GeneratedItem {
+    background: #191D29;
+    border-radius: 1rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.SketchTo3d .GeneratedItem__Idle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: #3D4463;
+    font-weight: 700;
+}
+
+.SketchTo3d .GeneratedItem__Idle svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.SketchTo3d .GeneratedItem__Loading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.SketchTo3d .GeneratedItem__Loading__TopWrapper {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.SketchTo3d .GeneratedItem__Loading__CenterWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: cadetblue;
+    font-weight: 500;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+
+.SketchTo3d .GeneratedItem__Loading__BottomWrapper {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #B0B3B8;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.SketchTo3d .GeneratedItem__Image {
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SketchTo3d .GeneratedItem__Image img {
+    width: 100%;
+    height: 100%;
+}
+
+.SketchTo3d .GeneratedItem__DownloadWrapper {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.SketchTo3d .GeneratedItem__DownloadWrapper svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.SketchTo3d .GeneratedItem__DownloadWrapper a {
+    color: #3D4463;
+}
+
+.SketchTo3d__Title {
+    font-weight: 500;
+    color: #B0B3B8;
+    margin-top: 2.2rem;
+}
+
+
+.loader {
+    border: 3px solid #3498db;
+    border-radius: 50%;
+    border-top: 3px solid transparent;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
