@@ -24,9 +24,8 @@ npm run dev
 
 ## Prerequisites
 
-To run this project, you'll need an API URL from Theta Edge Cloud, here is how to get it :
-
-Deploy the Sketch to 3D model on Theta Edge Cloud by going to the [Model Explorer](https://www.thetaedgecloud.com/dashboard).
+To run this project, you'll need an API URL from Theta EdgeCloud. 
+You can get it by deploying a Sketch to 3D model on Theta EdgeCloud [Model Explorer](https://www.thetaedgecloud.com/dashboard/ai/service/model-explorer).
 
 <br>
 
