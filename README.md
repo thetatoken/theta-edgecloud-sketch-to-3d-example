@@ -5,7 +5,7 @@ This project provides a working Sketch to 3D example using [Theta Edge Cloud](ht
 
 ## Getting Started
 
-1. Configure your Sketch to 3D project by editing the variable in the file `.env`. See [Prerequisites](https://github.com/thetatoken/theta-sketch-to-3d-example/blob/main/README.md#prerequisites) if you don't have an API URL.
+1. Configure your Sketch to 3D project by editing the variable in the file `.env`. See [Prerequisites](#prerequisites) if you don't have an API URL.
 
 ```bash
 VITE_API_URL : the inference endpoint generated with your Theta Edge Cloud dashboard.
